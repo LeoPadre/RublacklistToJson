@@ -11,7 +11,7 @@ def get_ip_address(hostname):
         return None
 
 # URL для получения списка адресов с сайта
-url = "https://reestr.rublacklist.net/api/v3/domains/"
+url = "https://reestr.rublacklist.net/api/v3/ct-domains/"
 
 # Отправляем GET-запрос и получаем данные в формате JSON
 response = requests.get(url)
